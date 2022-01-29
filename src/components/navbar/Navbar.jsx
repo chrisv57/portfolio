@@ -6,7 +6,6 @@ import "./navbar.css";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
-
   return (
     <div className="portfolio__navbar">
       <div className="portfolio__navbar_logo">
@@ -15,7 +14,10 @@ const Navbar = () => {
       <div className="portfolio__navbar-links">
         <div className="portfolio__navbar-links_container">
           <p>
-            <a href="#home"> Projects </a>
+            <a href="#home"> Home </a>
+          </p>
+          <p>
+            <a href="#projects"> Projects </a>
           </p>
           <p>
             <a href="#resume"> Resume </a>
@@ -43,7 +45,10 @@ const Navbar = () => {
           <div className="portfolio__navbar-menu_container scale-up-tr">
             <div className="portfolio__navbar-menu_container-links">
               <p>
-                <a href="#home"> Projects </a>
+                <a href="#home"> Home </a>
+              </p>
+              <p>
+                <a href="#projects"> Projects </a>
               </p>
               <p>
                 <a href="#resume"> Resume </a>
