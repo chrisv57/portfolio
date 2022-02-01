@@ -14,10 +14,14 @@
 .portfolio__education-program {
   font-family: var(--font-family);
   font-size: 14px;
-  margin: 1rem 0;
   flex-direction: row;
   display: flex;
   justify-content: space-between;
+  
+}
+.portfolio__education-program h1{
+color: #fff;
+  
 }
 .portfolio__education-date{
     margin-top: 10px;
