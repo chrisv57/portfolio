@@ -6,7 +6,7 @@ const header = () => {
     <div className="portfolio__header section__padding" id="home">
       <div className="portfolio__header-content">
         <p> Hey, I'm </p>
-        <h1 className="gradient__text">Shubam Verma</h1>
+        <h1 className="gradient__text-custom">Shubam Verma</h1>
         <p>
           I'm a Web Developer based in Ottawa, Canada. I enjoy creating things
           that live on the internet, whether that be websites, applications, or

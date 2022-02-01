@@ -1,0 +1,19 @@
+.portfolio__projects{
+    display: flex;
+    flex-direction: column;
+}
+.portfolio__projects-heading p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 300;
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 2rem;
+    text-align: left;
+
+}
+.portfolio__projects-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem 2rem;
+}

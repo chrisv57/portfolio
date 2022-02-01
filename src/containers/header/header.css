@@ -16,7 +16,7 @@
   font-family: var(--font-family-name);
   font-weight: bold;
   font-size: 96px;
-  line-height: 130px;
+  line-height: 120px;
 }
 .portfolio__header-content p {
   font-family: var(--font-family);
@@ -25,6 +25,32 @@
   line-height: 24px;
   color: var(--color-subtext);
 }
+.gradient__text-custom {
+    background: linear-gradient(
+      100deg,
+      rgba(152, 69, 232, 1) 0%,
+      rgba(51, 210, 255, 1) 49%,
+      rgba(221, 87, 137, 1) 100%
+    );
+    background-size: 200% 200%;
+    animation: rainbow 2s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: rgba(0, 0, 0, 0);
+  
+    transition: color 0.2s ease-in-out;
+  }
+  @keyframes rainbow {
+    0% {
+      background-position: left;
+    }
+    50% {
+      background-position: right;
+    }
+    100% {
+      background-position: left;
+    }
+  }
 
 @media screen and (max-width: 1050px) {
     .portfolio__header{
@@ -38,7 +64,7 @@
 
     .portfolio__header-content h1{
         font-size: 48px;
-        line-height: 60px;
+        line-height: 48px;
     }
     .portfolio__header-content p{
         font-size: 16px;
@@ -49,7 +75,7 @@
 
     .portfolio__header-content h1{
         font-size: 36px;
-        line-height: 48px;
+        line-height: 36px;
     }
     .portfolio__header-content p{
         font-size: 14px;
