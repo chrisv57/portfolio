@@ -24,7 +24,6 @@
 
 }
 .ant-card-body{
-    
     font-family: var(--font-family);
 }
 .portfolio__projects-custom-cards{
@@ -46,10 +45,11 @@
     padding: 0;
     margin-top: 2rem;
 }
-.github__icon{
+.github__icon{  
     margin-top: 1rem;
     height: 25px;
     width: 25px;
+    
 }
 .github__icon:hover{
     color:#6cace4;

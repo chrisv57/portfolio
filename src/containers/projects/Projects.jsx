@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./projects.css";
 import { Card } from "antd";
 import { AiOutlineGithub } from "react-icons/ai";
-import { project01, project02, project03, project04 } from "./imports";
+import { project01, project02, project03, project04,project05 } from "./imports";
 
 const { Meta } = Card;
 
@@ -65,7 +65,7 @@ const Projects = () => {
         >
           <Meta
             title="Amazon API "
-            description="•	Products, reviews and offers from amazon.ca are scrapped using Express and Nodeman. Web API is added to Rapid API for user interaction."
+            description="Products, reviews and offers from amazon.ca are scrapped using Express and Nodeman. Web API is added to Rapid API for user interaction."
             className="portfolio__projects-custom-cards-meta"
             onClick={() => window.open("https://github.com/chrisv57/Api_scrapper","_blank")}
           />
@@ -87,6 +87,25 @@ const Projects = () => {
             description="Primary responsibilities included developing custom web-page application using Shopify REST API."
             className="portfolio__projects-custom-cards-meta"
             onClick={() => window.open("https://floralenvy.ca/","_blank")}
+          />
+
+          <AiOutlineGithub className="github__icon" />
+        </Card>
+        <Card
+          hoverable
+          style={{ width: 600 }}
+          cover={
+            <a href="https://github.com/chrisv57/portfolio">
+              <img alt="example" src={project05} />
+            </a>
+          }
+          className="portfolio__projects-custom-cards"
+        >
+          <Meta
+            title="FoxTaleDesigns.com (Portfolio)"
+            description="Personal Reactjs Website"
+            className="portfolio__projects-custom-cards-meta"
+            onClick={() => window.open("https://github.com/chrisv57/portfolio","_blank")}
           />
 
           <AiOutlineGithub className="github__icon" />
