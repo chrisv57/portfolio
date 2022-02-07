@@ -16,7 +16,6 @@ const Projects = () => {
       <div className="portfolio__projects-container">
         <Card
           hoverable
-          style={{ width: 600 }}
           cover={
             <a href="https://cryptospace.netlify.app/">
               <img alt="example" src={project01} />
@@ -36,7 +35,6 @@ const Projects = () => {
 
         <Card
           hoverable
-          style={{ width: 600 }}
           cover={
             <a href="https://github.com/chrisv57/Painting-Portal">
               <img alt="example" src={project02} />
@@ -55,7 +53,6 @@ const Projects = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 600 }}
           cover={
             <a href="https://github.com/chrisv57/Api_scrapper">
               <img alt="example" src={project03} />
@@ -74,7 +71,6 @@ const Projects = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 600 }}
           cover={
             <a href="https://floralenvy.ca/">
               <img alt="example" src={project04} />
@@ -93,7 +89,6 @@ const Projects = () => {
         </Card>
         <Card
           hoverable
-          style={{ width: 600 }}
           cover={
             <a href="https://github.com/chrisv57/portfolio">
               <img alt="example" src={project05} />

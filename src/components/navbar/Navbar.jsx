@@ -20,7 +20,7 @@ const Navbar = () => {
             <a href="#projects"> Projects </a>
           </p>
           <p>
-            <a href="#resume"> Resume </a>
+            <a href="https://docs.google.com/document/d/12rx9DIbcabta15SBM7sZr387PfJr9iR8/edit?usp=sharing&ouid=111251740465143994324&rtpof=true&sd=true"> Resume </a>
           </p>
           <p>
             <a href="#contact"> Contact </a>
